@@ -45,7 +45,16 @@ namespace TimerSharp.Core
         // Method to log the elapsed time in a human-readable format
         private void LogElapsedTime(string methodName, (long milliseconds, long nanoseconds) elapsedTime)
         {
-            Console.WriteLine($"Method {methodName} took {elapsedTime.milliseconds}.{elapsedTime.nanoseconds:D6} ms to execute.");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write($"Method {methodName}");
+
+            Console.ForegroundColor = ConsoleColor.Yellow;  
+
+            Console.Write($" took {elapsedTime.milliseconds}.{elapsedTime.nanoseconds:D6}");
+
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.WriteLine(" ms to execute.");
         }
     }
 }
