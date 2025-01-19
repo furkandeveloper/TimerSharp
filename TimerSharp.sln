@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35410.144 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0021D93F-A0D6-4229-967D-FB969DE0B08B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerSharp.Core", "src\TimerSharp.Core\TimerSharp.Core.csproj", "{84FE5D6B-652E-4024-973E-BF65F502B413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{4BC174F0-C588-4E84-9D10-6AE4A1BF9157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerSharp.Console", "sample\TimerSharp.Console\TimerSharp.Console.csproj", "{BE110EE0-FDA5-46C1-9B2C-704B97B80549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84FE5D6B-652E-4024-973E-BF65F502B413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FE5D6B-652E-4024-973E-BF65F502B413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FE5D6B-652E-4024-973E-BF65F502B413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FE5D6B-652E-4024-973E-BF65F502B413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE110EE0-FDA5-46C1-9B2C-704B97B80549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE110EE0-FDA5-46C1-9B2C-704B97B80549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE110EE0-FDA5-46C1-9B2C-704B97B80549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE110EE0-FDA5-46C1-9B2C-704B97B80549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84FE5D6B-652E-4024-973E-BF65F502B413} = {0021D93F-A0D6-4229-967D-FB969DE0B08B}
+		{BE110EE0-FDA5-46C1-9B2C-704B97B80549} = {4BC174F0-C588-4E84-9D10-6AE4A1BF9157}
+	EndGlobalSection
+EndGlobal
