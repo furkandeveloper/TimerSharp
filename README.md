@@ -77,4 +77,24 @@ Method MyMethod took 1000.000000 ms to execute.
 ```
 
 
+### Api
+
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using TimerSharp.Core;
+
+[ApiController]
+[Route("[controller]")]
+public class ExampleController : ControllerBase
+{
+    [HttpGet]
+    [MethodTimer]
+    public IActionResult Get()
+    {
+        // Simulate some work
+        System.Threading.Thread.Sleep(500);
+        return Ok("This is a timed response!");
+    }
+}
+```
 
