@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{4BC174
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerSharp.Console", "sample\TimerSharp.Console\TimerSharp.Console.csproj", "{BE110EE0-FDA5-46C1-9B2C-704B97B80549}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerSharp.Api", "sample\TimerSharp.Api\TimerSharp.Api.csproj", "{1F454077-7607-473E-9A7D-6169BD120AD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{BE110EE0-FDA5-46C1-9B2C-704B97B80549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE110EE0-FDA5-46C1-9B2C-704B97B80549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE110EE0-FDA5-46C1-9B2C-704B97B80549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F454077-7607-473E-9A7D-6169BD120AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F454077-7607-473E-9A7D-6169BD120AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F454077-7607-473E-9A7D-6169BD120AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F454077-7607-473E-9A7D-6169BD120AD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{84FE5D6B-652E-4024-973E-BF65F502B413} = {0021D93F-A0D6-4229-967D-FB969DE0B08B}
 		{BE110EE0-FDA5-46C1-9B2C-704B97B80549} = {4BC174F0-C588-4E84-9D10-6AE4A1BF9157}
+		{1F454077-7607-473E-9A7D-6169BD120AD7} = {4BC174F0-C588-4E84-9D10-6AE4A1BF9157}
 	EndGlobalSection
 EndGlobal
