@@ -2,6 +2,15 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
+		<Version>1.0.0</Version>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<RepositoryUrl>https://github.com/furkandeveloper/TimerSharp</RepositoryUrl>
+		<Authors>furkandeveloper</Authors>
+		<Description>This library, provides This library calculates how long your methods take to execute.</Description>
+		<PackageTags>method-timer</PackageTags>
+		<PackageReleaseNotes>
+			🚀 Initial release
+		</PackageReleaseNotes>
 	</PropertyGroup>
 
 	<ItemGroup>
