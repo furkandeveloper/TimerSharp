@@ -21,7 +21,7 @@ namespace TimerSharp.Api.Controllers
 
         [HttpGet(Name = "GetWeatherForecast")]
         [MethodTimer]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecast> GetWeatherForecast()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
